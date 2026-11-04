@@ -1,0 +1,8 @@
+.DS_Store
+.qa/
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+source-artifacts/
+*.log

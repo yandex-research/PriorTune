@@ -1,0 +1,531 @@
+family,config_name,dataset,variant,median_ms,device,gpu_name,source
+catboost,default,churn-4ae7db677764,public,0.1724315225146711,cpu,,ba-real-r1
+catboost,tuned,churn-4ae7db677764,public,0.1673400402069091,cpu,,ba-real-r1
+catboost,te,churn-4ae7db677764,public,1.3700525159947574,cpu,,ba-real-r1
+catboost,default,coffee_rating_prediction-5ff37781e0a3,public,0.4209214821457863,cpu,,ba-real-r1
+catboost,tuned,coffee_rating_prediction-5ff37781e0a3,public,0.4298275453038513,cpu,,ba-real-r1
+catboost,te,coffee_rating_prediction-5ff37781e0a3,public,2.916704979725182,cpu,,ba-real-r1
+catboost,default,credit_g-6ced9fa4ef3f,public,0.2114104572683572,cpu,,ba-real-r1
+catboost,tuned,credit_g-6ced9fa4ef3f,public,0.2046910231001675,cpu,,ba-real-r1
+catboost,te,credit_g-6ced9fa4ef3f,public,0.8293060236610472,cpu,,ba-real-r1
+catboost,default,emscad-1790bb44ad91,public,0.4063780070282519,cpu,,ba-real-r1
+catboost,tuned,emscad-1790bb44ad91,public,0.6975309806875885,cpu,,ba-real-r1
+catboost,te,emscad-1790bb44ad91,public,1.796171476598829,cpu,,ba-real-r1
+catboost,default,kick-57821d387256,public,0.3696484491229057,cpu,,ba-real-r1
+catboost,tuned,kick-57821d387256,public,0.3518189769238233,cpu,,ba-real-r1
+catboost,te,kick-57821d387256,public,4.284004506189376,cpu,,ba-real-r1
+catboost,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.225672498345375,cpu,,ba-real-r1
+catboost,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.2380764344707131,cpu,,ba-real-r1
+catboost,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.2391844755038619,cpu,,ba-real-r1
+catboost,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.247362011577934,cpu,,ba-real-r1
+catboost,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,0.2291025011800229,cpu,,ba-real-r1
+catboost,te,predict_students_dropout_and_academic_su-60806510bdda,public,1.1122914729639888,cpu,,ba-real-r1
+catboost,default,sdss_17-3d9b16fdea21,public,0.5204839981161058,cpu,,ba-real-r1
+catboost,tuned,sdss_17-3d9b16fdea21,public,1.6078930348157885,cpu,,ba-real-r1
+catboost,te,sdss_17-3d9b16fdea21,public,4.327027592808008,cpu,,ba-real-r1
+catboost,default,sf_permit_time-a3faf4c318ef,public,0.7214379729703069,cpu,,ba-real-r1
+catboost,tuned,sf_permit_time-a3faf4c318ef,public,1.0793394758366048,cpu,,ba-real-r1
+catboost,te,sf_permit_time-a3faf4c318ef,public,8.490756037645042,cpu,,ba-real-r1
+catboost,default,video_transcoding_time_prediction-1aa8b8149615,public,0.2853850601240992,cpu,,ba-real-r1
+catboost,tuned,video_transcoding_time_prediction-1aa8b8149615,public,0.370017543900758,cpu,,ba-real-r1
+catboost,te,video_transcoding_time_prediction-1aa8b8149615,public,1.701686007436365,cpu,,ba-real-r1
+lightgbm-ft,default,churn-4ae7db677764,public,0.0483230105601251,cpu,,ba-real-r1
+lightgbm-ft,tuned,churn-4ae7db677764,public,0.048256479203701,cpu,,ba-real-r1
+lightgbm-ft,te,churn-4ae7db677764,public,0.3095054416917264,cpu,,ba-real-r1
+lightgbm-ft,default,coffee_rating_prediction-5ff37781e0a3,public,0.0901645398698747,cpu,,ba-real-r1
+lightgbm-ft,tuned,coffee_rating_prediction-5ff37781e0a3,public,0.9332764893770218,cpu,,ba-real-r1
+lightgbm-ft,te,coffee_rating_prediction-5ff37781e0a3,public,2.8519720071926717,cpu,,ba-real-r1
+lightgbm-ft,default,credit_g-6ced9fa4ef3f,public,8.988010522443801,cpu,,ba-real-r1
+lightgbm-ft,tuned,credit_g-6ced9fa4ef3f,public,8.991309441626072,cpu,,ba-real-r1
+lightgbm-ft,te,credit_g-6ced9fa4ef3f,public,26.957519934512675,cpu,,ba-real-r1
+lightgbm-ft,default,emscad-1790bb44ad91,public,0.0729850144125521,cpu,,ba-real-r1
+lightgbm-ft,tuned,emscad-1790bb44ad91,public,0.0758419628255069,cpu,,ba-real-r1
+lightgbm-ft,te,emscad-1790bb44ad91,public,1.504094514530152,cpu,,ba-real-r1
+lightgbm-ft,default,kick-57821d387256,public,0.0555054866708815,cpu,,ba-real-r1
+lightgbm-ft,tuned,kick-57821d387256,public,0.1827204832807183,cpu,,ba-real-r1
+lightgbm-ft,te,kick-57821d387256,public,1.438137493096292,cpu,,ba-real-r1
+lightgbm-ft,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0460074516013264,cpu,,ba-real-r1
+lightgbm-ft,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.2103770384564995,cpu,,ba-real-r1
+lightgbm-ft,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.2204430056735873,cpu,,ba-real-r1
+lightgbm-ft,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.0622824882157146,cpu,,ba-real-r1
+lightgbm-ft,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,0.5147415213286877,cpu,,ba-real-r1
+lightgbm-ft,te,predict_students_dropout_and_academic_su-60806510bdda,public,1.4951290213502944,cpu,,ba-real-r1
+lightgbm-ft,default,sdss_17-3d9b16fdea21,public,0.0592589494772255,cpu,,ba-real-r1
+lightgbm-ft,tuned,sdss_17-3d9b16fdea21,public,0.0591009738855063,cpu,,ba-real-r1
+lightgbm-ft,te,sdss_17-3d9b16fdea21,public,2.007731993217021,cpu,,ba-real-r1
+lightgbm-ft,default,sf_permit_time-a3faf4c318ef,public,0.0923395273275673,cpu,,ba-real-r1
+lightgbm-ft,tuned,sf_permit_time-a3faf4c318ef,public,1.281162025406957,cpu,,ba-real-r1
+lightgbm-ft,te,sf_permit_time-a3faf4c318ef,public,5.752704048063606,cpu,,ba-real-r1
+lightgbm-ft,default,video_transcoding_time_prediction-1aa8b8149615,public,0.0560164917260408,cpu,,ba-real-r1
+lightgbm-ft,tuned,video_transcoding_time_prediction-1aa8b8149615,public,0.3784354776144027,cpu,,ba-real-r1
+lightgbm-ft,te,video_transcoding_time_prediction-1aa8b8149615,public,2.0964439609088004,cpu,,ba-real-r1
+lightgbm-fte,default,churn-4ae7db677764,public,0.0442740274593234,cpu,,ba-real-r1
+lightgbm-fte,tuned,churn-4ae7db677764,public,0.0477894791401922,cpu,,ba-real-r1
+lightgbm-fte,te,churn-4ae7db677764,public,0.1969315344467759,cpu,,ba-real-r1
+lightgbm-fte,default,coffee_rating_prediction-5ff37781e0a3,public,0.0901405001059174,cpu,,ba-real-r1
+lightgbm-fte,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.1328160180710256,cpu,,ba-real-r1
+lightgbm-fte,te,coffee_rating_prediction-5ff37781e0a3,public,3.9362524985335767,cpu,,ba-real-r1
+lightgbm-fte,default,credit_g-6ced9fa4ef3f,public,9.005086496472359,cpu,,ba-real-r1
+lightgbm-fte,tuned,credit_g-6ced9fa4ef3f,public,8.984464453533292,cpu,,ba-real-r1
+lightgbm-fte,te,credit_g-6ced9fa4ef3f,public,71.63335249060765,cpu,,ba-real-r1
+lightgbm-fte,default,emscad-1790bb44ad91,public,0.0751785119064152,cpu,,ba-real-r1
+lightgbm-fte,tuned,emscad-1790bb44ad91,public,0.0755180371925234,cpu,,ba-real-r1
+lightgbm-fte,te,emscad-1790bb44ad91,public,0.5001899553462863,cpu,,ba-real-r1
+lightgbm-fte,default,kick-57821d387256,public,0.0555429724045097,cpu,,ba-real-r1
+lightgbm-fte,tuned,kick-57821d387256,public,0.2015324425883591,cpu,,ba-real-r1
+lightgbm-fte,te,kick-57821d387256,public,0.6871555233374238,cpu,,ba-real-r1
+lightgbm-fte,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0483885523863136,cpu,,ba-real-r1
+lightgbm-fte,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0911830575205385,cpu,,ba-real-r1
+lightgbm-fte,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0952495029196143,cpu,,ba-real-r1
+lightgbm-fte,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.0604555243626236,cpu,,ba-real-r1
+lightgbm-fte,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,0.0740015530027449,cpu,,ba-real-r1
+lightgbm-fte,te,predict_students_dropout_and_academic_su-60806510bdda,public,2.0464699482545257,cpu,,ba-real-r1
+lightgbm-fte,default,sdss_17-3d9b16fdea21,public,0.0584174995310604,cpu,,ba-real-r1
+lightgbm-fte,tuned,sdss_17-3d9b16fdea21,public,0.058711040765047,cpu,,ba-real-r1
+lightgbm-fte,te,sdss_17-3d9b16fdea21,public,2.9718694859184325,cpu,,ba-real-r1
+lightgbm-fte,default,sf_permit_time-a3faf4c318ef,public,0.0948624801822006,cpu,,ba-real-r1
+lightgbm-fte,tuned,sf_permit_time-a3faf4c318ef,public,0.6052139215171337,cpu,,ba-real-r1
+lightgbm-fte,te,sf_permit_time-a3faf4c318ef,public,3.466155554633588,cpu,,ba-real-r1
+lightgbm-fte,default,video_transcoding_time_prediction-1aa8b8149615,public,0.0564950169064104,cpu,,ba-real-r1
+lightgbm-fte,tuned,video_transcoding_time_prediction-1aa8b8149615,public,0.3934690030291676,cpu,,ba-real-r1
+lightgbm-fte,te,video_transcoding_time_prediction-1aa8b8149615,public,1.7012925236485898,cpu,,ba-real-r1
+lightgbm,default,churn-4ae7db677764,public,0.0463074538856744,cpu,,ba-real-r1
+lightgbm,tuned,churn-4ae7db677764,public,0.0458549475297331,cpu,,ba-real-r1
+lightgbm,te,churn-4ae7db677764,public,0.0466784695163369,cpu,,ba-real-r1
+lightgbm,default,coffee_rating_prediction-5ff37781e0a3,public,0.089925539214164,cpu,,ba-real-r1
+lightgbm,tuned,coffee_rating_prediction-5ff37781e0a3,public,0.0754400389268994,cpu,,ba-real-r1
+lightgbm,te,coffee_rating_prediction-5ff37781e0a3,public,0.828988035209477,cpu,,ba-real-r1
+lightgbm,default,credit_g-6ced9fa4ef3f,public,8.994596486445516,cpu,,ba-real-r1
+lightgbm,tuned,credit_g-6ced9fa4ef3f,public,8.98890703683719,cpu,,ba-real-r1
+lightgbm,te,credit_g-6ced9fa4ef3f,public,35.93360702507198,cpu,,ba-real-r1
+lightgbm,default,emscad-1790bb44ad91,public,0.0738060334697365,cpu,,ba-real-r1
+lightgbm,tuned,emscad-1790bb44ad91,public,0.0751649495214223,cpu,,ba-real-r1
+lightgbm,te,emscad-1790bb44ad91,public,0.4421704798005521,cpu,,ba-real-r1
+lightgbm,default,kick-57821d387256,public,0.0566624803468585,cpu,,ba-real-r1
+lightgbm,tuned,kick-57821d387256,public,0.3016339614987373,cpu,,ba-real-r1
+lightgbm,te,kick-57821d387256,public,1.2308134464547038,cpu,,ba-real-r1
+lightgbm,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0488164951093494,cpu,,ba-real-r1
+lightgbm,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.3994090366177261,cpu,,ba-real-r1
+lightgbm,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.7216579979285598,cpu,,ba-real-r1
+lightgbm,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.0609149574302136,cpu,,ba-real-r1
+lightgbm,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,0.1002285280264914,cpu,,ba-real-r1
+lightgbm,te,predict_students_dropout_and_academic_su-60806510bdda,public,2.138420008122921,cpu,,ba-real-r1
+lightgbm,default,sdss_17-3d9b16fdea21,public,0.0594634911976754,cpu,,ba-real-r1
+lightgbm,tuned,sdss_17-3d9b16fdea21,public,0.0589244882576167,cpu,,ba-real-r1
+lightgbm,te,sdss_17-3d9b16fdea21,public,2.4428365286439657,cpu,,ba-real-r1
+lightgbm,default,sf_permit_time-a3faf4c318ef,public,0.0932669499889016,cpu,,ba-real-r1
+lightgbm,tuned,sf_permit_time-a3faf4c318ef,public,1.0380989988334477,cpu,,ba-real-r1
+lightgbm,te,sf_permit_time-a3faf4c318ef,public,3.8765909848734736,cpu,,ba-real-r1
+lightgbm,default,video_transcoding_time_prediction-1aa8b8149615,public,0.0576145248487591,cpu,,ba-real-r1
+lightgbm,tuned,video_transcoding_time_prediction-1aa8b8149615,public,0.6953799747861922,cpu,,ba-real-r1
+lightgbm,te,video_transcoding_time_prediction-1aa8b8149615,public,3.7768614711239934,cpu,,ba-real-r1
+lgbm-prep-ft,default,churn-4ae7db677764,public,0.0464370241388678,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,churn-4ae7db677764,public,0.0467744539491832,cpu,,ba-real-r1
+lgbm-prep-ft,te,churn-4ae7db677764,public,0.6649040733464062,cpu,,ba-real-r1
+lgbm-prep-ft,default,coffee_rating_prediction-5ff37781e0a3,public,0.0890815863385796,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.882459444459528,cpu,,ba-real-r1
+lgbm-prep-ft,te,coffee_rating_prediction-5ff37781e0a3,public,3.364120493642986,cpu,,ba-real-r1
+lgbm-prep-ft,default,credit_g-6ced9fa4ef3f,public,8.988292538560927,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,credit_g-6ced9fa4ef3f,public,8.98941099876538,cpu,,ba-real-r1
+lgbm-prep-ft,te,credit_g-6ced9fa4ef3f,public,44.93355395970866,cpu,,ba-real-r1
+lgbm-prep-ft,default,emscad-1790bb44ad91,public,0.074205978307873,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,emscad-1790bb44ad91,public,0.0749400351196527,cpu,,ba-real-r1
+lgbm-prep-ft,te,emscad-1790bb44ad91,public,2.3796710302121937,cpu,,ba-real-r1
+lgbm-prep-ft,default,kick-57821d387256,public,0.0546399969607591,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,kick-57821d387256,public,0.7513555465266109,cpu,,ba-real-r1
+lgbm-prep-ft,te,kick-57821d387256,public,5.2811625064350665,cpu,,ba-real-r1
+lgbm-prep-ft,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0475425040349364,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.6328730378299952,cpu,,ba-real-r1
+lgbm-prep-ft,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.2272295425646007,cpu,,ba-real-r1
+lgbm-prep-ft,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.0599449849687516,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,0.7978730136528611,cpu,,ba-real-r1
+lgbm-prep-ft,te,predict_students_dropout_and_academic_su-60806510bdda,public,3.521333506796509,cpu,,ba-real-r1
+lgbm-prep-ft,default,sdss_17-3d9b16fdea21,public,0.0597764737904071,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,sdss_17-3d9b16fdea21,public,0.9891784866340458,cpu,,ba-real-r1
+lgbm-prep-ft,te,sdss_17-3d9b16fdea21,public,5.972156533971429,cpu,,ba-real-r1
+lgbm-prep-ft,default,sf_permit_time-a3faf4c318ef,public,0.0943184713833034,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,sf_permit_time-a3faf4c318ef,public,1.1503274436108768,cpu,,ba-real-r1
+lgbm-prep-ft,te,sf_permit_time-a3faf4c318ef,public,5.500318540725857,cpu,,ba-real-r1
+lgbm-prep-ft,default,video_transcoding_time_prediction-1aa8b8149615,public,0.0563219655305147,cpu,,ba-real-r1
+lgbm-prep-ft,tuned,video_transcoding_time_prediction-1aa8b8149615,public,0.8961990242823958,cpu,,ba-real-r1
+lgbm-prep-ft,te,video_transcoding_time_prediction-1aa8b8149615,public,4.381558566819876,cpu,,ba-real-r1
+lgbm-prep-fte,default,churn-4ae7db677764,public,0.0470714876428246,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,churn-4ae7db677764,public,0.0474550761282444,cpu,,ba-real-r1
+lgbm-prep-fte,te,churn-4ae7db677764,public,0.6512549589388072,cpu,,ba-real-r1
+lgbm-prep-fte,default,coffee_rating_prediction-5ff37781e0a3,public,0.0873184762895107,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,coffee_rating_prediction-5ff37781e0a3,public,0.3686559502966702,cpu,,ba-real-r1
+lgbm-prep-fte,te,coffee_rating_prediction-5ff37781e0a3,public,2.86783796036616,cpu,,ba-real-r1
+lgbm-prep-fte,default,credit_g-6ced9fa4ef3f,public,0.0492720282636582,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,credit_g-6ced9fa4ef3f,public,0.7697930559515953,cpu,,ba-real-r1
+lgbm-prep-fte,te,credit_g-6ced9fa4ef3f,public,4.515627515502274,cpu,,ba-real-r1
+lgbm-prep-fte,default,emscad-1790bb44ad91,public,0.0742045231163501,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,emscad-1790bb44ad91,public,1.1346489773131907,cpu,,ba-real-r1
+lgbm-prep-fte,te,emscad-1790bb44ad91,public,6.729293498210609,cpu,,ba-real-r1
+lgbm-prep-fte,default,kick-57821d387256,public,0.0539830070920288,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,kick-57821d387256,public,1.186863984912634,cpu,,ba-real-r1
+lgbm-prep-fte,te,kick-57821d387256,public,5.747608025558293,cpu,,ba-real-r1
+lgbm-prep-fte,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0470150262117385,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.3186585381627083,cpu,,ba-real-r1
+lgbm-prep-fte,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.8491625194437802,cpu,,ba-real-r1
+lgbm-prep-fte,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.0617939513176679,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,1.0059689520858228,cpu,,ba-real-r1
+lgbm-prep-fte,te,predict_students_dropout_and_academic_su-60806510bdda,public,4.580322536639869,cpu,,ba-real-r1
+lgbm-prep-fte,default,sdss_17-3d9b16fdea21,public,0.0614260206930339,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,sdss_17-3d9b16fdea21,public,0.8102424326352775,cpu,,ba-real-r1
+lgbm-prep-fte,te,sdss_17-3d9b16fdea21,public,4.143872472923249,cpu,,ba-real-r1
+lgbm-prep-fte,default,sf_permit_time-a3faf4c318ef,public,0.0936720171011984,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,sf_permit_time-a3faf4c318ef,public,0.8862100075930357,cpu,,ba-real-r1
+lgbm-prep-fte,te,sf_permit_time-a3faf4c318ef,public,9.099517483264208,cpu,,ba-real-r1
+lgbm-prep-fte,default,video_transcoding_time_prediction-1aa8b8149615,public,0.056347984354943,cpu,,ba-real-r1
+lgbm-prep-fte,tuned,video_transcoding_time_prediction-1aa8b8149615,public,1.1487245210446415,cpu,,ba-real-r1
+lgbm-prep-fte,te,video_transcoding_time_prediction-1aa8b8149615,public,4.381821490824223,cpu,,ba-real-r1
+lgbm-prep-r,default,churn-4ae7db677764,public,0.0473675318062305,cpu,,ba-real-r1
+lgbm-prep-r,tuned,churn-4ae7db677764,public,0.046505476348102,cpu,,ba-real-r1
+lgbm-prep-r,te,churn-4ae7db677764,public,0.7441564812324941,cpu,,ba-real-r1
+lgbm-prep-r,default,coffee_rating_prediction-5ff37781e0a3,public,0.0891939271241426,cpu,,ba-real-r1
+lgbm-prep-r,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.5766450087539852,cpu,,ba-real-r1
+lgbm-prep-r,te,coffee_rating_prediction-5ff37781e0a3,public,2.110334986355156,cpu,,ba-real-r1
+lgbm-prep-r,default,credit_g-6ced9fa4ef3f,public,8.978575060609728,cpu,,ba-real-r1
+lgbm-prep-r,tuned,credit_g-6ced9fa4ef3f,public,8.993600029498339,cpu,,ba-real-r1
+lgbm-prep-r,te,credit_g-6ced9fa4ef3f,public,35.925098054576665,cpu,,ba-real-r1
+lgbm-prep-r,default,emscad-1790bb44ad91,public,0.0727435108274221,cpu,,ba-real-r1
+lgbm-prep-r,tuned,emscad-1790bb44ad91,public,1.5262154629454017,cpu,,ba-real-r1
+lgbm-prep-r,te,emscad-1790bb44ad91,public,2.040640509221703,cpu,,ba-real-r1
+lgbm-prep-r,default,kick-57821d387256,public,0.0563404755666852,cpu,,ba-real-r1
+lgbm-prep-r,tuned,kick-57821d387256,public,1.0723949526436627,cpu,,ba-real-r1
+lgbm-prep-r,te,kick-57821d387256,public,2.5379479629918933,cpu,,ba-real-r1
+lgbm-prep-r,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.0465914490632712,cpu,,ba-real-r1
+lgbm-prep-r,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.1812870614230632,cpu,,ba-real-r1
+lgbm-prep-r,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,0.3515679854899645,cpu,,ba-real-r1
+lgbm-prep-r,default,predict_students_dropout_and_academic_su-60806510bdda,public,0.0566429225727915,cpu,,ba-real-r1
+lgbm-prep-r,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,0.812493497505784,cpu,,ba-real-r1
+lgbm-prep-r,te,predict_students_dropout_and_academic_su-60806510bdda,public,2.506875549443066,cpu,,ba-real-r1
+lgbm-prep-r,default,sdss_17-3d9b16fdea21,public,0.059872050769627,cpu,,ba-real-r1
+lgbm-prep-r,tuned,sdss_17-3d9b16fdea21,public,1.592796470504254,cpu,,ba-real-r1
+lgbm-prep-r,te,sdss_17-3d9b16fdea21,public,4.220749018713832,cpu,,ba-real-r1
+lgbm-prep-r,default,sf_permit_time-a3faf4c318ef,public,0.0951325055211782,cpu,,ba-real-r1
+lgbm-prep-r,tuned,sf_permit_time-a3faf4c318ef,public,0.496181019116193,cpu,,ba-real-r1
+lgbm-prep-r,te,sf_permit_time-a3faf4c318ef,public,5.483204964548349,cpu,,ba-real-r1
+lgbm-prep-r,default,video_transcoding_time_prediction-1aa8b8149615,public,0.0573330326005816,cpu,,ba-real-r1
+lgbm-prep-r,tuned,video_transcoding_time_prediction-1aa8b8149615,public,0.6818000110797584,cpu,,ba-real-r1
+lgbm-prep-r,te,video_transcoding_time_prediction-1aa8b8149615,public,5.9620089596137404,cpu,,ba-real-r1
+mlp-cos-ft,default,churn-4ae7db677764,public,1.1668350198306143,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,churn-4ae7db677764,public,1.1675269925035536,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,churn-4ae7db677764,public,6.042357941623777,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,coffee_rating_prediction-5ff37781e0a3,public,1.712810539174825,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.7921505495905876,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,coffee_rating_prediction-5ff37781e0a3,public,8.386330038774759,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,credit_g-6ced9fa4ef3f,public,1.340622024144977,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,credit_g-6ced9fa4ef3f,public,1.3428775127977133,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,credit_g-6ced9fa4ef3f,public,6.910626485478133,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,emscad-1790bb44ad91,public,2.161553013138473,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,emscad-1790bb44ad91,public,2.1096935379318893,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,emscad-1790bb44ad91,public,6.686941953375936,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,kick-57821d387256,public,1.5428184997290373,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,kick-57821d387256,public,1.4359125052578747,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,kick-57821d387256,public,10.755059018265456,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.335499982815236,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.4101795386523008,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,2.7389550232328475,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,predict_students_dropout_and_academic_su-60806510bdda,public,1.4786410029046235,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,1.4756754389964044,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,predict_students_dropout_and_academic_su-60806510bdda,public,12.202335521578789,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,sdss_17-3d9b16fdea21,public,1.1783294612541797,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,sdss_17-3d9b16fdea21,public,1.3316289987415075,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,sdss_17-3d9b16fdea21,public,8.830117993056774,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,sf_permit_time-a3faf4c318ef,public,2.990168984979391,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,sf_permit_time-a3faf4c318ef,public,3.077684435993433,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,sf_permit_time-a3faf4c318ef,public,21.66564093204215,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,default,video_transcoding_time_prediction-1aa8b8149615,public,1.212277507875115,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,tuned,video_transcoding_time_prediction-1aa8b8149615,public,1.2922309688292444,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-ft,te,video_transcoding_time_prediction-1aa8b8149615,public,6.536951987072825,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,churn-4ae7db677764,public,1.1853795731440189,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,churn-4ae7db677764,public,1.1820565559901297,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,churn-4ae7db677764,public,4.908211994916201,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,coffee_rating_prediction-5ff37781e0a3,public,1.783237501513213,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.9641779945231972,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,coffee_rating_prediction-5ff37781e0a3,public,9.324191021732986,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,credit_g-6ced9fa4ef3f,public,1.377444015815854,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,credit_g-6ced9fa4ef3f,public,1.4663620386272669,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,credit_g-6ced9fa4ef3f,public,8.70114949066192,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,emscad-1790bb44ad91,public,2.158120973035693,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,emscad-1790bb44ad91,public,2.175764529965818,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,emscad-1790bb44ad91,public,8.937510487157851,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,kick-57821d387256,public,1.5272839809767902,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,kick-57821d387256,public,1.6029989928938448,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,kick-57821d387256,public,10.76170103624463,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.3802415342070162,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.4755554730072618,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,2.941679500509053,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,predict_students_dropout_and_academic_su-60806510bdda,public,1.4586244942620397,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,1.605934463441372,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,predict_students_dropout_and_academic_su-60806510bdda,public,6.277767533902079,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,sdss_17-3d9b16fdea21,public,1.1824159882962704,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,sdss_17-3d9b16fdea21,public,1.1689774692058563,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,sdss_17-3d9b16fdea21,public,8.711518486961722,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,sf_permit_time-a3faf4c318ef,public,2.9949320014566183,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,sf_permit_time-a3faf4c318ef,public,3.087059478275478,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,sf_permit_time-a3faf4c318ef,public,36.87823406653479,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,default,video_transcoding_time_prediction-1aa8b8149615,public,1.1941400589421391,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,tuned,video_transcoding_time_prediction-1aa8b8149615,public,1.2735379859805107,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-fte,te,video_transcoding_time_prediction-1aa8b8149615,public,6.523748976178467,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,churn-4ae7db677764,public,1.2573315179906783,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,churn-4ae7db677764,public,1.341719995252788,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,churn-4ae7db677764,public,6.580451503396034,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,coffee_rating_prediction-5ff37781e0a3,public,1.7228194628842175,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.650462974794209,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,coffee_rating_prediction-5ff37781e0a3,public,11.079792981036007,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,credit_g-6ced9fa4ef3f,public,1.3565385015681386,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,credit_g-6ced9fa4ef3f,public,1.3624405255541203,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,credit_g-6ced9fa4ef3f,public,15.067897038534284,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,emscad-1790bb44ad91,public,2.1718639764003456,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,emscad-1790bb44ad91,public,2.0742720225825906,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,emscad-1790bb44ad91,public,19.58702557021752,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,kick-57821d387256,public,1.6015244764275849,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,kick-57821d387256,public,1.5954989939928057,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,kick-57821d387256,public,13.231149001512676,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.38492148835212,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.4737744932062924,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,4.193846078123897,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,predict_students_dropout_and_academic_su-60806510bdda,public,1.4490350149571896,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,1.5676289913244543,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,predict_students_dropout_and_academic_su-60806510bdda,public,8.436020987574011,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,sdss_17-3d9b16fdea21,public,1.166607951745391,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,sdss_17-3d9b16fdea21,public,1.1407799902372062,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,sdss_17-3d9b16fdea21,public,5.741574976127595,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,sf_permit_time-a3faf4c318ef,public,3.0015945085324347,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,sf_permit_time-a3faf4c318ef,public,3.085054981056601,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,sf_permit_time-a3faf4c318ef,public,27.1508225123398,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,default,video_transcoding_time_prediction-1aa8b8149615,public,1.1925664730370045,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,tuned,video_transcoding_time_prediction-1aa8b8149615,public,1.2795304646715522,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+mlp-cos-r,te,video_transcoding_time_prediction-1aa8b8149615,public,7.659286493435502,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,churn-4ae7db677764,public,1.9992804736830292,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,churn-4ae7db677764,public,2.1759485243819654,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,churn-4ae7db677764,public,8.485685451887548,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,coffee_rating_prediction-5ff37781e0a3,public,1.7588954651728272,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,coffee_rating_prediction-5ff37781e0a3,public,1.9827680080197752,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,coffee_rating_prediction-5ff37781e0a3,public,11.321152036543936,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,credit_g-6ced9fa4ef3f,public,2.477836504112929,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,credit_g-6ced9fa4ef3f,public,2.6933670160360634,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,credit_g-6ced9fa4ef3f,public,11.38138200622052,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,emscad-1790bb44ad91,public,2.323545573744923,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,emscad-1790bb44ad91,public,2.4872245267033577,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,emscad-1790bb44ad91,public,18.026187957730144,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,kick-57821d387256,public,3.153586469125002,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,kick-57821d387256,public,8.967453555669636,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,kick-57821d387256,public,38.2361889933236,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,2.066739951260388,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,2.274196478538215,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,4.581546527333558,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,predict_students_dropout_and_academic_su-60806510bdda,public,2.834843995515257,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,2.991633024066686,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,predict_students_dropout_and_academic_su-60806510bdda,public,18.551260989625007,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,sdss_17-3d9b16fdea21,public,1.709503005258739,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,sdss_17-3d9b16fdea21,public,1.9181594834662972,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,sdss_17-3d9b16fdea21,public,5.648188467603177,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,sf_permit_time-a3faf4c318ef,public,2.884303976316005,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,sf_permit_time-a3faf4c318ef,public,3.0807789880782366,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,sf_permit_time-a3faf4c318ef,public,26.420362468343228,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,default,video_transcoding_time_prediction-1aa8b8149615,public,1.721632550470531,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,tuned,video_transcoding_time_prediction-1aa8b8149615,public,1.668609504122287,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+realmlp,te,video_transcoding_time_prediction-1aa8b8149615,public,7.06593954237178,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,churn-4ae7db677764,public,1.6928375116549432,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,churn-4ae7db677764,public,1.8681754590943456,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,churn-4ae7db677764,public,3.435042512137443,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,coffee_rating_prediction-5ff37781e0a3,public,2.2011020337231457,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,coffee_rating_prediction-5ff37781e0a3,public,2.3222184972837567,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,coffee_rating_prediction-5ff37781e0a3,public,9.169647004455328,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,credit_g-6ced9fa4ef3f,public,1.7576179816387594,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,credit_g-6ced9fa4ef3f,public,1.917968969792128,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,credit_g-6ced9fa4ef3f,public,5.622633441817015,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,emscad-1790bb44ad91,public,2.5849840021692216,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,emscad-1790bb44ad91,public,2.744967001490295,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,emscad-1790bb44ad91,public,13.930068525951356,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,kick-57821d387256,public,8.965106506366283,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,kick-57821d387256,public,8.974128984846175,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,kick-57821d387256,public,17.97219051513821,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.8734040204435587,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,2.024257031735033,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,3.925221972167492,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,predict_students_dropout_and_academic_su-60806510bdda,public,1.8684695241972804,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,predict_students_dropout_and_academic_su-60806510bdda,public,1.871547487098724,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,predict_students_dropout_and_academic_su-60806510bdda,public,9.485664020758122,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,sdss_17-3d9b16fdea21,public,1.6697000246495008,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,sdss_17-3d9b16fdea21,public,1.7188939964398742,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,sdss_17-3d9b16fdea21,public,8.60784953692928,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,sf_permit_time-a3faf4c318ef,public,3.3870050101540983,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,sf_permit_time-a3faf4c318ef,public,3.44806449720636,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,sf_permit_time-a3faf4c318ef,public,24.399194051511586,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,default,video_transcoding_time_prediction-1aa8b8149615,public,1.6231619520112872,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,tuned,video_transcoding_time_prediction-1aa8b8149615,public,1.6656494699418545,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabm,te,video_transcoding_time_prediction-1aa8b8149615,public,8.337109524291009,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,churn-4ae7db677764,public,1.7357414471916854,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,coffee_rating_prediction-5ff37781e0a3,public,2.169391489587724,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,credit_g-6ced9fa4ef3f,public,1.8101619207300248,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,emscad-1790bb44ad91,public,2.5830550002865493,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,kick-57821d387256,public,1.9948804983869195,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.6633134800940752,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,predict_students_dropout_and_academic_su-60806510bdda,public,1.9798044231720269,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,sdss_17-3d9b16fdea21,public,1.628268917556852,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,sf_permit_time-a3faf4c318ef,public,3.497158468235284,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-fte64,default,video_transcoding_time_prediction-1aa8b8149615,public,1.5101765166036785,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,churn-4ae7db677764,public,1.4939840184524655,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,coffee_rating_prediction-5ff37781e0a3,public,2.114273491315544,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,credit_g-6ced9fa4ef3f,public,1.6404910129494965,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,emscad-1790bb44ad91,public,2.499058493413031,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,kick-57821d387256,public,1.8434029771015048,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,1.566909020766616,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,predict_students_dropout_and_academic_su-60806510bdda,public,1.7734764842316508,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,sdss_17-3d9b16fdea21,public,1.4529720065183938,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,sf_permit_time-a3faf4c318ef,public,3.40688246069476,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpack-r64,default,video_transcoding_time_prediction-1aa8b8149615,public,1.4331454876810312,cuda,NVIDIA H100 80GB HBM3,ba-real-r1
+tabpfn3,default,credit_g-6ced9fa4ef3f,public,370.9150045760907,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,credit_g-6ced9fa4ef3f,cache_gpu,228.50433248095214,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,credit_g-6ced9fa4ef3f,cache_cpu,239.72909554140642,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,credit_g-6ced9fa4ef3f,public,74.42846847698092,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,credit_g-6ced9fa4ef3f,cache_gpu,62.81419051811099,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,credit_g-6ced9fa4ef3f,cache_cpu,100.18095950363204,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,credit_g-6ced9fa4ef3f,public,222.60458546224982,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,credit_g-6ced9fa4ef3f,cache_gpu,67.57951201871037,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,credit_g-6ced9fa4ef3f,cache_cpu,68.12820100458339,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,credit_g-6ced9fa4ef3f,public,168.10698795598,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,credit_g-6ced9fa4ef3f,cache_gpu,55.196887464262545,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,credit_g-6ced9fa4ef3f,cache_cpu,55.35848397994414,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,credit_g-6ced9fa4ef3f,public,135.3453819756396,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,credit_g-6ced9fa4ef3f,cache_gpu,43.609766056761146,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,credit_g-6ced9fa4ef3f,cache_cpu,44.34578446671367,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,383.0410899827257,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_gpu,222.50280296429992,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_cpu,251.26424903282896,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,143.93344498239458,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_gpu,99.55960401566699,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_cpu,136.57070702174678,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,432.86347546381876,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_gpu,54.616282519418746,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_cpu,112.23243054701015,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,231.4768644864671,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_gpu,44.12737104576081,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_cpu,68.30657797399908,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,public,117.48217901913449,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_gpu,54.225776984822005,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,mice_protein_trisomy_discriminant-14c7a0eb99a0,cache_cpu,33.51815353380516,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,coffee_rating_prediction-5ff37781e0a3,public,2989.3669559969567,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,coffee_rating_prediction-5ff37781e0a3,cache_gpu,252.94699700316414,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,coffee_rating_prediction-5ff37781e0a3,cache_cpu,314.86225652042776,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,coffee_rating_prediction-5ff37781e0a3,public,448.23810004163533,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,coffee_rating_prediction-5ff37781e0a3,cache_gpu,108.41779893962666,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,coffee_rating_prediction-5ff37781e0a3,cache_cpu,189.09329047892243,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,coffee_rating_prediction-5ff37781e0a3,public,1500.1248354674317,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,coffee_rating_prediction-5ff37781e0a3,cache_gpu,229.96981296455488,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,coffee_rating_prediction-5ff37781e0a3,cache_cpu,202.3756984854117,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,coffee_rating_prediction-5ff37781e0a3,public,756.7743214312941,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,coffee_rating_prediction-5ff37781e0a3,cache_gpu,122.85288597922772,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,coffee_rating_prediction-5ff37781e0a3,cache_cpu,143.38694856269285,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,coffee_rating_prediction-5ff37781e0a3,public,437.5315239885822,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,coffee_rating_prediction-5ff37781e0a3,cache_gpu,102.32030152110383,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,coffee_rating_prediction-5ff37781e0a3,cache_cpu,101.31062503205612,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,predict_students_dropout_and_academic_su-60806510bdda,public,715.6698424951173,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,predict_students_dropout_and_academic_su-60806510bdda,cache_gpu,243.4478244977072,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,predict_students_dropout_and_academic_su-60806510bdda,cache_cpu,264.5676395040937,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,predict_students_dropout_and_academic_su-60806510bdda,public,172.18571749981493,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,predict_students_dropout_and_academic_su-60806510bdda,cache_gpu,102.17764397384599,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,predict_students_dropout_and_academic_su-60806510bdda,cache_cpu,184.9146435270086,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,predict_students_dropout_and_academic_su-60806510bdda,public,636.6922979941592,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,predict_students_dropout_and_academic_su-60806510bdda,cache_gpu,73.22272344026715,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,predict_students_dropout_and_academic_su-60806510bdda,cache_cpu,76.1779670137912,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,predict_students_dropout_and_academic_su-60806510bdda,public,313.4128345409408,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,predict_students_dropout_and_academic_su-60806510bdda,cache_gpu,59.481780510395765,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,predict_students_dropout_and_academic_su-60806510bdda,cache_cpu,59.9330150289461,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,predict_students_dropout_and_academic_su-60806510bdda,public,185.660703049507,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,predict_students_dropout_and_academic_su-60806510bdda,cache_gpu,48.0300594936125,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,predict_students_dropout_and_academic_su-60806510bdda,cache_cpu,48.3439969830215,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,churn-4ae7db677764,public,585.9300610609353,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,churn-4ae7db677764,cache_gpu,232.51805745530874,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,churn-4ae7db677764,cache_cpu,250.69165049353614,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,churn-4ae7db677764,public,131.5465630032122,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,churn-4ae7db677764,cache_gpu,99.03263254091144,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,churn-4ae7db677764,cache_cpu,186.47568800952286,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,churn-4ae7db677764,public,550.7322980556637,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,churn-4ae7db677764,cache_gpu,66.96606206241995,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,churn-4ae7db677764,cache_cpu,67.06373702036217,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,churn-4ae7db677764,public,253.57325101504102,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,churn-4ae7db677764,cache_gpu,53.65849705412984,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,churn-4ae7db677764,cache_cpu,54.38291851896793,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,churn-4ae7db677764,public,165.15699098818004,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,churn-4ae7db677764,cache_gpu,42.72934049367905,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,churn-4ae7db677764,cache_cpu,42.96213953057304,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,emscad-1790bb44ad91,public,3626.5638285549358,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,emscad-1790bb44ad91,cache_gpu,243.48782148445025,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,emscad-1790bb44ad91,cache_cpu,324.87361901439726,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,emscad-1790bb44ad91,public,3001.068904530257,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,emscad-1790bb44ad91,cache_gpu,104.2673320043832,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,emscad-1790bb44ad91,cache_cpu,391.5088845533319,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,emscad-1790bb44ad91,public,9978.869971993845,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,emscad-1790bb44ad91,cache_gpu,270.86990856332704,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,emscad-1790bb44ad91,cache_cpu,275.393643474672,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,emscad-1790bb44ad91,public,4696.8318074941635,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,emscad-1790bb44ad91,cache_gpu,114.31492801057175,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,emscad-1790bb44ad91,cache_cpu,134.60239302366972,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,emscad-1790bb44ad91,public,1832.6729859691113,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,emscad-1790bb44ad91,cache_gpu,66.35734194424003,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,emscad-1790bb44ad91,cache_cpu,89.50836444273591,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,video_transcoding_time_prediction-1aa8b8149615,public,4995.944140013307,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,video_transcoding_time_prediction-1aa8b8149615,cache_gpu,226.16569651290774,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,video_transcoding_time_prediction-1aa8b8149615,cache_cpu,357.7736334409565,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,video_transcoding_time_prediction-1aa8b8149615,public,2374.81949001085,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,video_transcoding_time_prediction-1aa8b8149615,cache_gpu,96.58409503754228,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,video_transcoding_time_prediction-1aa8b8149615,cache_cpu,1164.5474365213886,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,video_transcoding_time_prediction-1aa8b8149615,public,14613.781867490616,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,video_transcoding_time_prediction-1aa8b8149615,cache_gpu,296.66401201393455,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,video_transcoding_time_prediction-1aa8b8149615,cache_cpu,345.3675545169972,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,video_transcoding_time_prediction-1aa8b8149615,public,8553.63914591726,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,video_transcoding_time_prediction-1aa8b8149615,cache_gpu,355.88000097777694,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,video_transcoding_time_prediction-1aa8b8149615,cache_cpu,324.5069830445573,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,video_transcoding_time_prediction-1aa8b8149615,public,3958.2120570121333,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,video_transcoding_time_prediction-1aa8b8149615,cache_gpu,141.93556841928512,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,video_transcoding_time_prediction-1aa8b8149615,cache_cpu,279.2084810207598,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,sdss_17-3d9b16fdea21,public,10917.943295906298,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,sdss_17-3d9b16fdea21,cache_gpu,577.3870664415881,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,sdss_17-3d9b16fdea21,cache_cpu,1215.047678037081,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,sdss_17-3d9b16fdea21,public,5502.865146496333,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,sdss_17-3d9b16fdea21,cache_gpu,233.39307302376255,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,sdss_17-3d9b16fdea21,cache_cpu,1301.737715024501,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,sdss_17-3d9b16fdea21,public,17937.279033008963,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,sdss_17-3d9b16fdea21,cache_gpu,753.0307819833979,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,sdss_17-3d9b16fdea21,cache_cpu,268.6533540254459,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,sdss_17-3d9b16fdea21,public,4962.683744961396,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,sdss_17-3d9b16fdea21,cache_gpu,202.07001647213474,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,sdss_17-3d9b16fdea21,cache_cpu,250.76727900886908,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,sdss_17-3d9b16fdea21,public,2486.018875031732,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,sdss_17-3d9b16fdea21,cache_gpu,95.45873751631007,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,sdss_17-3d9b16fdea21,cache_cpu,271.3918524677865,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,sf_permit_time-a3faf4c318ef,public,35740.27270503575,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,sf_permit_time-a3faf4c318ef,cache_gpu,277.4519939557649,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,sf_permit_time-a3faf4c318ef,cache_cpu,606.9193150033243,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,sf_permit_time-a3faf4c318ef,public,24387.92555697728,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,sf_permit_time-a3faf4c318ef,cache_gpu,151.22213499853387,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,sf_permit_time-a3faf4c318ef,cache_cpu,1785.8048449852504,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,sf_permit_time-a3faf4c318ef,public,89034.35841697501,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,sf_permit_time-a3faf4c318ef,cache_gpu,501.95352802984416,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,sf_permit_time-a3faf4c318ef,cache_cpu,570.5011075478978,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,sf_permit_time-a3faf4c318ef,public,39237.50059801387,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,sf_permit_time-a3faf4c318ef,cache_gpu,256.70295499730855,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,sf_permit_time-a3faf4c318ef,cache_cpu,286.66935896035284,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,sf_permit_time-a3faf4c318ef,public,15058.714118553326,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,sf_permit_time-a3faf4c318ef,cache_gpu,173.90979401534423,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,sf_permit_time-a3faf4c318ef,cache_cpu,333.1085335230455,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,kick-57821d387256,public,10450.326777994633,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,kick-57821d387256,cache_gpu,338.76351750222966,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabpfn3,default,kick-57821d387256,cache_cpu,546.1722559994087,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,kick-57821d387256,public,5764.995340025052,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,kick-57821d387256,cache_gpu,100.84768640808761,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+tabicl2,default,kick-57821d387256,cache_cpu,1825.0226435484365,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,kick-57821d387256,public,72452.72580848541,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,kick-57821d387256,cache_gpu,741.02001497522,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular,default,kick-57821d387256,cache_cpu,594.8980344692245,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,kick-57821d387256,public,12009.010781999677,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,kick-57821d387256,cache_gpu,814.8578815162182,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-medium,default,kick-57821d387256,cache_cpu,296.64728103671223,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,kick-57821d387256,public,4853.638767963275,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,kick-57821d387256,cache_gpu,158.00996450707316,cuda,NVIDIA H100 80GB HBM3,ba-real-icl
+kumo-tabular-small,default,kick-57821d387256,cache_cpu,367.9062984883785,cuda,NVIDIA H100 80GB HBM3,ba-real-icl

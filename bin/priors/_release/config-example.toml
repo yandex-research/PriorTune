@@ -1,0 +1,15 @@
+# The release spec: 1000 datasets of one prior.
+seed = 0
+n_datasets = 1000
+n_samples = [1024, 32768]
+n_features = [4, 64]
+max_cat_size = 100
+max_classes = 10
+max_attempts = 64
+max_seconds_per_dataset = 600.0
+n_workers = 16
+
+[task_types]
+regression = 0.4
+binclass = 0.3
+multiclass = 0.3

@@ -1,0 +1,61 @@
+/* Self-contained conceptual opening illustration. */
+.prior-demo{--pd-orange:#bd784b;--pd-green:#2b7457;background:#fff;border:1px solid #dce3d7;border-radius:13px;box-shadow:0 8px 35px #53664b08;overflow:hidden;min-width:0;width:100%;color:#263b2e}
+.prior-demo .pd-heading{padding:22px 24px 16px}
+.prior-demo .pd-eyebrow{display:block;font:8px/1.6 var(--mono,monospace);letter-spacing:.7px;color:#6b776b}
+.prior-demo .pd-heading h2{font:550 17px/1.35 var(--sans,sans-serif);letter-spacing:-.45px;margin:6px 0 0;color:#283c2e}
+.prior-demo .pd-landscapes{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;padding:0 12px}
+.prior-demo .pd-panel{min-width:0;position:relative}
+.prior-demo .pd-panel+ .pd-panel{border-left:1px solid #e9ece3}
+.prior-demo .pd-panel-title{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:0 12px}
+.prior-demo .pd-panel-title h3{font:550 11px/1.5 var(--sans,sans-serif);display:flex;align-items:center;gap:6px;letter-spacing:-.1px;white-space:nowrap}
+.prior-demo .pd-panel-title h3 i{width:6px;height:6px;border-radius:50%;background:var(--pd-orange);display:inline-block;flex:none}
+.prior-demo .pd-prior .pd-panel-title h3 i{background:var(--pd-green)}
+.prior-demo .pd-panel-title>span{font:8px/1.5 var(--mono,monospace);color:#6c7669;white-space:nowrap}
+.prior-demo .pd-panel-title b{font-weight:500;color:#9b5f38;font-variant-numeric:tabular-nums}
+.prior-demo .pd-prior .pd-panel-title b{color:var(--pd-green)}
+.prior-demo .pd-panel-caption{font:9px/1.5 var(--sans,sans-serif);color:#6f796b;padding:3px 12px 0}
+.prior-demo canvas{display:block;width:100%;height:220px;pointer-events:none}
+.prior-demo .pd-surface-key{font:8px/1.5 var(--sans,sans-serif);color:#727966;display:flex;align-items:center;justify-content:center;gap:6px;margin:0 12px 17px}
+.prior-demo .pd-surface-key i{width:12px;height:6px;display:inline-block;background:#e4ce88;border:1px solid #c8ad6a;border-radius:1px}
+.prior-demo .pd-surface-key>span{margin:0 3px}
+.prior-demo .pd-curve-wrap{border-top:1px solid #e7ebdf;padding:14px 22px 0;background:linear-gradient(180deg,#fbfcf8,#fff)}
+.prior-demo .pd-curve-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:4px}
+.prior-demo .pd-curve-heading>span:first-child{font:7px/1.5 var(--mono,monospace);letter-spacing:.7px;color:#6d7c6b;white-space:nowrap}
+.prior-demo .pd-curve-caveat{font:8px/1.5 var(--sans,sans-serif);color:#6b7767;text-align:right}
+.prior-demo #pd-curve{width:100%;min-width:0}
+.prior-demo #pd-curve svg{width:100%;height:auto;overflow:visible}
+.prior-demo #pd-curve text{font:9px var(--sans,sans-serif);fill:#6e7b69}
+.prior-demo #pd-curve .pd-curve-grid{stroke:#e7ecdf;stroke-width:.8}
+.prior-demo #pd-curve .pd-curve-ghost{fill:none;stroke:#be794d;stroke-opacity:.17;stroke-width:2;stroke-linecap:round}
+.prior-demo #pd-curve .pd-random-line{fill:none;stroke:var(--pd-orange);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.prior-demo #pd-curve .pd-prior-line{stroke:var(--pd-green);stroke-width:2}
+.prior-demo #pd-curve .pd-curve-cursor{stroke:#8b9c87;stroke-width:.8;stroke-dasharray:2 4;opacity:.65}
+.prior-demo #pd-curve .pd-prior-dot{fill:var(--pd-green);stroke:white;stroke-width:1.5}
+.prior-demo #pd-curve .pd-random-dot{fill:var(--pd-orange);stroke:white;stroke-width:1.5}
+.prior-demo #pd-curve .pd-curve-prior-label{fill:#2b7457;font-weight:600}
+.prior-demo #pd-curve .pd-curve-random-label{fill:#9c613b;font-weight:600}
+.prior-demo .pd-controls{padding:2px 24px 10px;display:flex;align-items:center;gap:12px}
+.prior-demo .pd-play{display:grid;place-items:center;flex:none;width:32px;height:32px;border:1px solid #d4e0cd;border-radius:50%;background:#eef4e8;color:#375d40;font-size:10px;line-height:1}
+.prior-demo .pd-play:hover{background:#e2eddb}
+.prior-demo .pd-reset{display:grid;place-items:center;flex:none;width:24px;height:28px;padding:3px;border:0;background:none;color:#71806a}
+.prior-demo .pd-reset:hover{color:#294e32}
+.prior-demo .pd-reset svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+.prior-demo .pd-slider{min-width:0;flex:1}
+.prior-demo .pd-budget-heading{display:flex;justify-content:space-between;gap:8px;font:9px/1.5 var(--sans,sans-serif);color:#586b55}
+.prior-demo .pd-budget-heading output{font:8px/1.6 var(--mono,monospace);font-variant-numeric:tabular-nums;color:#99603c;white-space:nowrap}
+.prior-demo input[type=range]{accent-color:#bb7a50;height:16px;margin:4px 0 0;width:100%;display:block}
+.prior-demo .pd-budget-ticks{display:flex;justify-content:space-between;gap:8px;font:7px/1.5 var(--mono,monospace);color:#687962;margin-top:2px}
+.prior-demo .pd-budget-ticks>span:nth-child(2){font-family:var(--sans,sans-serif);color:#66745f}
+.prior-demo .pd-stage{font:10px/1.7 var(--sans,sans-serif);color:#65705d;padding:2px 24px 16px;min-height:51px}
+.prior-demo .pd-details{border-top:1px solid #e2e9da;background:#f9fbf6}
+.prior-demo .pd-details summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:15px;cursor:pointer;font:9px/1.6 var(--sans,sans-serif);color:#576b50;padding:11px 24px}
+.prior-demo .pd-details summary::-webkit-details-marker{display:none}
+.prior-demo .pd-details summary span{font-size:12px;font-weight:400}
+.prior-demo .pd-details[open] summary span{transform:rotate(45deg)}
+.prior-demo .pd-details p{font:10px/1.8 var(--sans,sans-serif);color:#63765b;padding:0 24px 17px}
+@media(max-width:1100px) and (min-width:851px){.prior-demo .pd-panel-title{flex-wrap:wrap;gap:1px 6px}.prior-demo .pd-panel-caption{font-size:8px}.prior-demo .pd-heading{padding-inline:18px}.prior-demo .pd-heading h2{font-size:15px}.prior-demo .pd-curve-heading{align-items:flex-start}.prior-demo .pd-curve-caveat{max-width:180px}}
+@media(max-width:560px){.prior-demo .pd-heading{padding:17px 16px 15px}.prior-demo .pd-heading h2{font-size:15px;line-height:1.4;letter-spacing:-.3px}.prior-demo .pd-eyebrow{font-size:6.5px;letter-spacing:.45px}.prior-demo .pd-landscapes{padding:0 5px}.prior-demo .pd-panel-title{padding:0 9px;gap:2px;flex-wrap:wrap}.prior-demo .pd-panel-title h3{font-size:10px;gap:5px}.prior-demo .pd-panel-title>span{font-size:7px}.prior-demo .pd-panel-caption{padding:3px 9px 0;font-size:8px}.prior-demo .pd-surface-key{font-size:7px;gap:5px;margin-bottom:13px}.prior-demo .pd-surface-key>span{margin:0}.prior-demo .pd-surface-key i{width:10px;height:5px}.prior-demo .pd-curve-wrap{padding:13px 15px 0}.prior-demo .pd-curve-heading{align-items:flex-start;gap:10px}.prior-demo .pd-curve-heading>span:first-child{font-size:6.5px;letter-spacing:.4px}.prior-demo .pd-curve-caveat{font-size:7px;max-width:160px;line-height:1.6}.prior-demo .pd-controls{padding:2px 16px 10px;gap:10px}.prior-demo .pd-budget-heading{font-size:8px;gap:6px;flex-wrap:wrap}.prior-demo .pd-budget-heading output{font-size:7px}.prior-demo .pd-budget-ticks{font-size:6.5px}.prior-demo .pd-play{width:30px;height:30px}.prior-demo .pd-reset{width:20px}.prior-demo .pd-stage{padding:1px 16px 13px;font-size:9px;line-height:1.75;min-height:46px}.prior-demo .pd-details summary{padding:10px 16px;font-size:8px}.prior-demo .pd-details p{padding:0 16px 14px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.prior-demo *{scroll-behavior:auto}}
+@media(max-width:380px){.prior-demo .pd-panel-title{flex-direction:column;align-items:flex-start;gap:1px}.prior-demo .pd-panel-title>span{line-height:1.6}}
+.prior-demo .pd-curve-heading>span:first-child{font:9px/1.5 var(--sans,sans-serif);letter-spacing:0;color:#586b55}.prior-demo .pd-curve-caveat{color:#396d4d;text-decoration:underline;text-decoration-color:#b5cbb2;text-underline-offset:3px;font-size:9px}.prior-demo .pd-curve-caveat:hover{color:#1c4d30}.prior-demo #pd-curve .pd-y-axis{stroke:#9aaa93;stroke-width:.8}.prior-demo .pd-details ul{font:10px/1.8 var(--sans,sans-serif);color:#63765b;margin:0;padding:0 24px 17px 38px}.prior-demo .pd-details li+li{margin-top:7px}.prior-demo .pd-details a{color:#2b7457;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:560px){.prior-demo .pd-curve-heading>span:first-child,.prior-demo .pd-curve-caveat{font-size:8px}.prior-demo .pd-details ul{padding:0 16px 14px 30px;font-size:10px}}

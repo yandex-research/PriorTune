@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 160" width="500" height="160" role="img" aria-label="PriorTune">
+  <!-- A synthetic prior (the curve) over a pool of configurations (the grid);
+       the coloured cells are the selected subset, in the paper's model colours. -->
+  <style>
+    .ink { fill: #1a1a1a; } .curve { stroke: #1a1a1a; } .muted { fill: #6f6e69; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #f0efec; } .curve { stroke: #f0efec; } .muted { fill: #a3a29d; }
+      .cell { fill: #3d3c39; } .tune { fill: #2fb33f; }
+    }
+  </style>
+  <rect class="cell" x="18" y="50" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="35" y="50" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="52" y="50" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="69" y="50" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect x="86" y="50" width="13" height="13" rx="3" fill="#008300"/>
+  <rect class="cell" x="103" y="50" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="18" y="67" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect x="35" y="67" width="13" height="13" rx="3" fill="#2a78d6"/>
+  <rect class="cell" x="52" y="67" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="69" y="67" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="86" y="67" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="103" y="67" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="18" y="84" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="35" y="84" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="52" y="84" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect x="69" y="84" width="13" height="13" rx="3" fill="#4a3aa7"/>
+  <rect class="cell" x="86" y="84" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="103" y="84" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect x="18" y="101" width="13" height="13" rx="3" fill="#c2185b"/>
+  <rect class="cell" x="35" y="101" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="52" y="101" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="69" y="101" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="86" y="101" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="103" y="101" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="18" y="118" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="35" y="118" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="52" y="118" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="69" y="118" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="86" y="118" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect x="103" y="118" width="13" height="13" rx="3" fill="#008300"/>
+  <rect class="cell" x="18" y="135" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="35" y="135" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect x="52" y="135" width="13" height="13" rx="3" fill="#2a78d6"/>
+  <rect class="cell" x="69" y="135" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="86" y="135" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <rect class="cell" x="103" y="135" width="13" height="13" rx="3" fill="#d9d8d3"/>
+  <path class="curve" d="M 18.0 39.8 L 19.6 39.7 L 21.3 39.6 L 22.9 39.4 L 24.5 39.1 L 26.2 38.7 L 27.8 38.1 L 29.4 37.5 L 31.1 36.6 L 32.7 35.5 L 34.3 34.2 L 36.0 32.7 L 37.6 30.9 L 39.2 28.9 L 40.9 26.7 L 42.5 24.4 L 44.1 22.0 L 45.8 19.7 L 47.4 17.6 L 49.0 15.6 L 50.7 14.0 L 52.3 12.9 L 53.9 12.2 L 55.6 12.0 L 57.2 12.4 L 58.8 13.3 L 60.5 14.6 L 62.1 16.3 L 63.7 18.3 L 65.4 20.4 L 67.0 22.6 L 68.6 24.6 L 70.3 26.5 L 71.9 28.0 L 73.5 29.2 L 75.2 29.9 L 76.8 30.1 L 78.4 30.0 L 80.1 29.5 L 81.7 28.8 L 83.3 28.0 L 85.0 27.4 L 86.6 26.9 L 88.2 26.9 L 89.9 27.2 L 91.5 27.9 L 93.1 29.0 L 94.8 30.4 L 96.4 31.9 L 98.0 33.4 L 99.7 34.8 L 101.3 36.1 L 102.9 37.2 L 104.6 38.0 L 106.2 38.7 L 107.8 39.1 L 109.5 39.5 L 111.1 39.7 L 112.7 39.8 L 114.4 39.9 L 116.0 39.9" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="ink" x="148" y="88" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Prior<tspan class="tune" fill="#008300">Tune</tspan></text>
+  <text class="muted" x="150" y="116" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5">meta-tuning tabular models on synthetic data</text>
+</svg>

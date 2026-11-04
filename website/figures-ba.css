@@ -1,0 +1,51 @@
+/* The BeyondArena comparison owns its figure typography and spacing. */
+#elo-chart.ba-figure{height:auto;margin:16px 24px 17px;min-width:0;overflow:visible}
+.ba-figure .ba-key{display:flex;flex-wrap:wrap;justify-content:space-between;gap:9px 20px;margin:0 7px 17px;font-size:10px;color:#59655d;line-height:1.5}
+.ba-figure .ba-key-main,.ba-figure .ba-cache-key{display:flex;flex-wrap:wrap;align-items:center;gap:8px 17px}
+.ba-figure .ba-key span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.ba-figure .ba-symbol{width:10px;height:10px;display:inline-block;border:1.5px solid #5e6c63;border-radius:1px;background:#fff;flex:none}
+.ba-figure .ba-symbol.ba-full{background:#5e6c63}
+.ba-figure .ba-symbol.ba-half{background:linear-gradient(90deg,#5e6c63 50%,#fff 50%)}
+.ba-figure .ba-regime-key{border-left:1px solid #dbe1da;padding-left:16px;gap:8px!important}
+.ba-figure .ba-regime-key b{font-size:15px;font-weight:500;line-height:1}
+.ba-figure .ba-ci-key i{width:19px;height:1px;background:#89968d}
+.ba-figure .ba-frontier-key i{width:20px;border-top:1.5px dashed #79867b}
+.ba-figure .ba-cache-key{font-size:9px;gap:7px 13px}
+.ba-figure .ba-diamond{display:inline-block;width:8px;height:8px;transform:rotate(45deg);border:1px solid #6d766f;flex:none;margin-inline:2px}
+.ba-figure .ba-cache-gpu{background:#515b55}.ba-figure .ba-cache-cpu{background:#a5ada7}.ba-figure .ba-recompute{background:#e5e8e6}
+.ba-figure .ba-scroll{width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#c2cdc1 transparent}
+.ba-figure .ba-scroll svg{width:100%;height:auto;max-width:none;overflow:visible}
+.ba-figure svg{fill:#657269}
+.ba-figure svg text{font-family:var(--sans,Arial,sans-serif);font-size:11px;font-variant-numeric:tabular-nums}
+.ba-figure svg .ba-row-name{font-size:11.5px;letter-spacing:-.13px}
+.ba-figure svg .ba-row-sub{font-size:9px;fill:#667368}
+.ba-figure svg .ba-strong{font-weight:650}
+.ba-figure svg .ba-axis-heading{font-size:8.5px;font-weight:600;letter-spacing:1px;fill:#667368}
+.ba-figure svg .ba-axis-label{font-size:10px;fill:#667368}
+.ba-figure svg .ba-value{font-size:11.5px;fill:#3f4e43}
+.ba-figure svg .ba-gain{font-size:11px;font-weight:650}
+.ba-figure .ba-grid{stroke:#e5e9e3;stroke-width:1;shape-rendering:crispEdges}
+.ba-figure .ba-minor-grid{stroke:#f0f2ee}
+.ba-figure .ba-cache-link{stroke:#a9b2ab;stroke-width:1.25}
+.ba-figure .ba-frontier{fill:none;stroke:#7d897f;stroke-width:1.3;stroke-dasharray:5 4;opacity:.66}
+.ba-figure .ba-label-leader{stroke-width:.75;opacity:.7}
+.ba-figure .ba-column-leader{fill:none;stroke-width:.8;opacity:.55}
+.ba-figure .ba-pair-link{stroke-width:1.4;opacity:.55}
+.ba-figure .ba-direct-label text{font-size:11.5px;letter-spacing:-.15px}
+#elo-protocol.ba-protocol{white-space:pre-line;max-width:940px}
+.ba-figure .ba-mark,.ba-figure .ba-detail-mark{cursor:help;outline:none}
+.ba-figure .ba-mark:focus-visible>circle,.ba-figure .ba-detail-mark:focus-visible>circle{stroke:#202c23;stroke-width:1.2;stroke-dasharray:2 2;fill:#fff5}
+.ba-figure .ba-mark:hover>circle,.ba-figure .ba-detail-mark:hover>circle{fill:#52675812}
+.ba-figure .ba-scroll-hint{font-size:9px;color:#607165;text-align:right;margin:0 3px 12px}
+.ba-figure .ba-rank-narrow .ba-row-name{font-size:10px;letter-spacing:-.2px}
+.ba-figure .ba-rank-narrow .ba-row-sub{font-size:8px}
+.ba-figure .ba-rank-narrow .ba-tick{font-size:9px}
+.ba-figure .ba-rank-narrow .ba-axis-heading{font-size:7px;letter-spacing:.65px}
+.ba-figure .ba-rank-narrow .ba-gain{font-size:9px}
+.ba-figure .ba-rank-narrow .ba-axis-label{font-size:9px}
+.ba-figure .ba-overview .ba-tick{font-size:9px}.ba-figure .ba-overview .ba-direct-label text{font-size:10px}.ba-figure .ba-overview .ba-axis-label{font-size:9px}.ba-figure .ba-overview .ba-axis-heading{font-size:7px}
+.ba-figure .ba-labeled-detail{margin-top:17px;border-top:1px solid #e5e9e3}
+.ba-figure .ba-labeled-detail>summary{list-style:none;cursor:pointer;padding:13px 1px;color:#506657;font-size:10px;font-weight:600;display:flex;justify-content:space-between;gap:10px}
+.ba-figure .ba-labeled-detail>summary::-webkit-details-marker{display:none}.ba-figure .ba-labeled-detail>summary span{font-weight:400}.ba-figure .ba-labeled-detail[open]>summary span{transform:rotate(45deg)}
+@media(max-width:1050px){.ba-figure:has(.ba-latency-scroll) .ba-scroll-hint{display:block}}
+@media(max-width:700px){#elo-chart.ba-figure{margin:14px 14px 13px}.ba-figure .ba-key{font-size:9px;margin:0 1px 16px;gap:9px}.ba-figure .ba-key-main{gap:7px 12px}.ba-figure .ba-cache-key{font-size:8px;gap:6px 10px}.ba-figure .ba-regime-key{padding-left:12px;gap:6px!important}.ba-figure .ba-scroll-hint{display:block}.ba-figure .ba-regime-key b{font-size:13px}}

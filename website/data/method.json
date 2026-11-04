@@ -1,0 +1,378 @@
+{
+  "project": "PriorTune",
+  "title": "Beyond Foundation Models: PFN Priors Improve Tabular Hyperparameter Optimization",
+  "tagline": "Search less. Choose better.",
+  "summary": "Use synthetic tasks to select a reusable set of hyperparameter configurations. Fit that compact set on a new dataset and choose by validation.",
+  "authors": [
+    {
+      "name": "Artem Chistyakov",
+      "equalContribution": true,
+      "affiliations": [
+        "HSE University",
+        "Yandex"
+      ]
+    },
+    {
+      "name": "Renat Sergazinov",
+      "equalContribution": true,
+      "affiliations": [
+        "Yandex"
+      ]
+    },
+    {
+      "name": "Artem Babenko",
+      "equalContribution": false,
+      "affiliations": [
+        "Yandex",
+        "HSE University"
+      ]
+    }
+  ],
+  "links": {
+    "paper": "https://arxiv.org/abs/2611.05141v1",
+    "pdf": "https://arxiv.org/pdf/2611.05141",
+    "html": "https://arxiv.org/html/2611.05141v1",
+    "code": "https://github.com/yandex-research/PriorTune",
+    "data": "https://huggingface.co/datasets/mrsergazinov/PriorTune"
+  },
+  "method": {
+    "offline": "Fit a configuration bank on synthetic tasks; greedily select a subset for its downstream deployment rule.",
+    "online": "Fit the selected configurations on a new dataset, then select a model or ensemble using validation predictions.",
+    "selection": "Each candidate subset is deployed on synthetic validation data and scored on synthetic test data against random reference subsets.",
+    "stability": "Sixteen validation bootstraps and random references stabilize offline selection.",
+    "syntheticTasks": 4000,
+    "configurations": 4000,
+    "selectionResamples": 16,
+    "models": [
+      "LightGBM",
+      "LightGBM-TabPrep",
+      "MLP with cosine embeddings",
+      "TabPack"
+    ],
+    "rules": {
+      "T": "Deploy the validation-best configuration.",
+      "TE": "Build a greedy ensemble using validation predictions.",
+      "FT": "Subset selected for T.",
+      "FTE": "Subset selected for T+E."
+    },
+    "costNote": "Offline work is reused. Equal online configuration counts do not guarantee identical fit times."
+  },
+  "figureCopy": {
+    "latency": {
+      "title": "Strong predictions. Fast inference.",
+      "description": "BeyondArena Elo versus single-row inference latency.",
+      "source": "data/main/elo_full_ba.csv + data/main/latency.csv"
+    },
+    "randomSearch": {
+      "title": "A smaller set can beat a larger search.",
+      "description": "Selected configurations versus more random search on TabArena-Lite.",
+      "source": "data/ablations/random_draws.csv + data/ablations/climbed.csv"
+    },
+    "syntheticReal": {
+      "title": "Synthetic data keeps scaling.",
+      "description": "Real tasks help early. Synthetic tasks extend the meta-training budget.",
+      "source": "data/ablations/budget.csv + data/ablations/tabrepo_ladder.csv"
+    },
+    "scaling": {
+      "title": "More tasks. More configurations.",
+      "description": "Explore both dimensions of the offline budget.",
+      "source": "data/ablations/surfaces.csv"
+    },
+    "hyperparameters": {
+      "title": "What does the prior select?",
+      "description": "Compare selected hyperparameters with their original sampling distribution."
+    }
+  },
+  "protocols": {
+    "beyondArena": {
+      "datasets": 142,
+      "tasks": 497,
+      "eloComparisonField": 58,
+      "outerSplits": "All core benchmark outer train–test splits",
+      "innerFolds": 8,
+      "configurations": 25,
+      "tabpackMembers": 64,
+      "ensembleSteps": 40,
+      "note": "Elo remains fitted on the full comparison field when the display filters methods."
+    },
+    "latency": {
+      "datasets": 10,
+      "batchSize": 1,
+      "warmupCalls": 5,
+      "timedCalls": 50,
+      "aggregation": "Median over calls, then median over datasets",
+      "gbdtHardware": "16 CPU threads",
+      "neuralHardware": "One H100 GPU",
+      "deployment": "Fitted models remain in memory; native prediction paths",
+      "tabprep": "Compiled feature generation is included",
+      "pfnModes": [
+        "Recompute context",
+        "KV cache on GPU",
+        "KV cache on CPU"
+      ],
+      "note": "Latency uses ten datasets; Elo uses the full BeyondArena. These are inference timings, not training time."
+    },
+    "ablations": {
+      "benchmark": "TabArena-Lite",
+      "datasets": 51,
+      "outerSplit": "First outer train–test split",
+      "innerFolds": 1,
+      "rule": "T",
+      "deployment": "Single-inner-fold T: select by that fold's validation scores and evaluate its test predictions.",
+      "foldProvenance": "Confirmed by the project authors for these ablations: 1FoldT, without concatenating validation predictions or averaging test predictions across eight folds.",
+      "metric": "Win rate against random subsets of the same size K; ties count as 0.5",
+      "offlinePool": 4000,
+      "offlineTasks": 4000,
+      "repetitions": 2000,
+      "note": "Repeated-order variation on this fixed benchmark is distinct from uncertainty over unseen datasets."
+    },
+    "randomSearch": {
+      "randomBankSize": 16000,
+      "largestDisplayedRandomSubset": 4000,
+      "randomDrawsPerSize": 200,
+      "independentAcrossSizes": true,
+      "yAxis": "Win rate vs. random-K",
+      "band": "Empirical 2.5th–97.5th percentiles across random-subset draws, as stored in p2_5 and p97_5",
+      "note": "The curve compares each random search size with a common random-K baseline. Its vertical gap to PriorTune is not a direct pairwise win rate."
+    },
+    "syntheticReal": {
+      "realSource": "TabRepo",
+      "realDatasets": 182,
+      "excludedOverlappingDatasets": 18,
+      "realConfigurationBank": 16000,
+      "budget": "B = configurations × meta-training datasets",
+      "lineDefinition": "Best observed cell in each factor-of-two budget bin",
+      "note": "Synthetic and real data have different task counts. Budget counts fits; it does not equate wall-clock cost."
+    },
+    "hyperparameters": {
+      "selectedConfigurations": 200,
+      "rule": "T",
+      "continuousYAxis": "Density relative to prior",
+      "websiteDisplay": "Smooth lines reproduce the paper's reflected Gaussian KDE at 300 points in the sampling-CDF coordinate, using Scott bandwidth. The sampling-prior reference is flat at 1. Original histogram masses and selected values remain in the downloadable data.",
+      "paperDisplay": "Selected density divided by sampling density, with reference level 1; native hyperparameter values use a logarithmic axis for log-uniform parameters.",
+      "densitySource": "bin/figures/ablations.py: unit, reflected_kde, draw_hp",
+      "endpointHandling": "Gaussian kernels are reflected at both endpoints of the unit sampling-CDF interval.",
+      "slotDefaults": {
+        "lgbm": "learning_rate",
+        "lgbm-prep": "learning_rate",
+        "mlp": "lr"
+      },
+      "mixedDistributions": "Categorical and TabPrep choices use paired bars for their prior and selected probability masses. Dropout shows its continuous density and a separate zero-probability bar pair. All 36 parameters can be selected or shuffled in the three model panels.",
+      "categoricalYAxis": "Share of configurations",
+      "note": "These distributions describe the selected portfolio, not a posterior probability of a configuration being optimal."
+    }
+  },
+  "demo": {
+    "title": "Random search and a fixed portfolio",
+    "badge": "Illustration",
+    "caption": "This illustration mimics the LightGBM trend in Plot 2. Both panels share the same underlying quality surface. The plotted win rates approximate the scale of that figure and are not computed from the displayed dots.",
+    "labels": {
+      "x": "Hyperparameter 1",
+      "y": "Hyperparameter 2",
+      "landscape": "Same underlying quality surface",
+      "random": "Random search",
+      "filtered": "PriorTune · fixed illustrative portfolio",
+      "quality": "Win rate vs. baseline",
+      "curveCaveat": "Illustrative trend from Plot 2",
+      "budget": "Random-search budget"
+    },
+    "takeaways": [
+      "More candidates improve coverage of the landscape.",
+      "A compact reusable portfolio can concentrate candidates in promising regions.",
+      "The schematic curve illustrates diminishing returns and a possible decline; larger search need not worsen every task."
+    ],
+    "implementationContract": {
+      "kind": "Deliberately illustrative storyboard; not an experiment, fitted expectation, or benchmark result.",
+      "source": "demo.js: qualitySurface, storyboardQuality, makeCandidates, makePortfolio",
+      "seed": 128409,
+      "bankSize": 4000,
+      "portfolioSize": 25,
+      "budgetRange": [
+        4,
+        4000
+      ],
+      "sliderRange": [
+        0,
+        1000
+      ],
+      "sliderMapping": "round(4 × 1000^(slider / 1000)); random budgets reveal nested prefixes of the fixed candidate bank.",
+      "playthroughDurationMs": 18000,
+      "coordinates": "A seeded bank of 4,000 uniformly drawn 2D locations is reused across playback and reset.",
+      "surface": {
+        "sharedAcrossPanels": true,
+        "domain": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "gaussianDefinition": "g(x, y, a, b) = exp(-((u-x)^2/a + (v-y)^2/b))",
+        "formula": "0.12 + 0.61*g(0.70,0.36,0.050,0.080) + 0.36*g(0.28,0.72,0.040,0.035) + 0.16*g(0.20,0.19,0.080,0.035) - 0.075*g(0.50,0.65,0.018,0.024) + 0.022*sin(6.283*u)*cos(6.283*v)",
+        "meaning": "Deterministic, invented quality landscape for the diagram; no dataset is fitted."
+      },
+      "randomPointOffsets": "Fixed small display offsets: clamp((U1 + U2 + U3 - 1.5) × 0.042, -0.055, 0.055), using the same seeded generator. These offsets do not determine the score curve or an algorithmic winner.",
+      "portfolioCoordinates": [
+        [
+          0.6,
+          0.32
+        ],
+        [
+          0.67,
+          0.31
+        ],
+        [
+          0.74,
+          0.32
+        ],
+        [
+          0.8,
+          0.38
+        ],
+        [
+          0.66,
+          0.39
+        ],
+        [
+          0.72,
+          0.4
+        ],
+        [
+          0.76,
+          0.46
+        ],
+        [
+          0.64,
+          0.47
+        ],
+        [
+          0.68,
+          0.54
+        ],
+        [
+          0.79,
+          0.53
+        ],
+        [
+          0.85,
+          0.46
+        ],
+        [
+          0.83,
+          0.61
+        ],
+        [
+          0.6,
+          0.58
+        ],
+        [
+          0.55,
+          0.44
+        ],
+        [
+          0.73,
+          0.65
+        ],
+        [
+          0.24,
+          0.68
+        ],
+        [
+          0.3,
+          0.68
+        ],
+        [
+          0.36,
+          0.7
+        ],
+        [
+          0.23,
+          0.76
+        ],
+        [
+          0.3,
+          0.77
+        ],
+        [
+          0.38,
+          0.79
+        ],
+        [
+          0.36,
+          0.87
+        ],
+        [
+          0.44,
+          0.73
+        ],
+        [
+          0.26,
+          0.27
+        ],
+        [
+          0.35,
+          0.29
+        ]
+      ],
+      "portfolioMeaning": "Twenty-five hand-placed diagram locations, fixed throughout playback. They are not selected by an algorithm, are not a released PriorTune portfolio, and are not claimed to form a subset of the random bank.",
+      "portfolioPointHeights": "Green points lie on the shared surface to mark their locations. This drawing convention does not imply noiseless validation for PriorTune.",
+      "qualityCurve": {
+        "coordinate": "t = log(k / 4) / log(1000), for 4 ≤ k ≤ 4000",
+        "smoothstep": "s(q) = z^2 * (3 - 2*z), where z = clamp(q, 0, 1)",
+        "randomFormula": "0.38 + 0.145*(1-exp(-5.5*t)) - 0.028*s((t-0.58)/0.42)",
+        "portfolioReference": 0.63,
+        "design": "The hand-designed random trajectory rises, plateaus, and gently declines. The fixed strong portfolio reference is deliberately above the random curve throughout the displayed budget range.",
+        "notEstimatedFromPoints": true,
+        "noValidationSelectionIsPerformed": true,
+        "verticalAxis": {
+          "label": "Win rate vs. baseline",
+          "domain": [
+            0.3,
+            0.7
+          ],
+          "ticks": [
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7
+          ],
+          "measured": false
+        },
+        "relatedFigure": {
+          "siteAnchor": "#random-search",
+          "figureNumber": 2,
+          "relationship": "The schematic imitates the rise, plateau, and slight decline in the measured LightGBM random-search curve at K = 64. Its rounded scale is similar to Plot 2, but the smooth trajectory is not an estimate computed from the measurements.",
+          "model": "LightGBM",
+          "baselineK": 64
+        }
+      },
+      "playback": "One automatic playthrough when visible unless reduced motion is requested; play, pause, reset, and a logarithmic budget slider are available. Playback pauses when the page or illustration becomes hidden.",
+      "disclosure": "The invented geometry and designed trajectory illustrate a qualitative idea. They provide no measured performance, estimated expectation, validation winner, or guarantee that filtering beats larger searches."
+    }
+  },
+  "citation": "@article{chistyakov2026priortune,\n  title={Beyond Foundation Models: {PFN} Priors Improve Tabular Hyperparameter Optimization},\n  author={Chistyakov, Artem and Sergazinov, Renat and Babenko, Artem},\n  journal={arXiv preprint arXiv:2611.05141},\n  year={2026},\n  url={https://arxiv.org/abs/2611.05141}\n}",
+  "sources": [
+    {
+      "id": "paper",
+      "url": "https://arxiv.org/html/2611.05141v1",
+      "sections": "3.4; 4; 5.2–5.6; A.1.1–A.1.4"
+    },
+    {
+      "id": "repository",
+      "url": "https://github.com/yandex-research/PriorTune",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "figure-inputs",
+      "path": "source-artifacts/upstream/data/SOURCES.md"
+    },
+    {
+      "id": "latency-implementation",
+      "path": "source-artifacts/upstream/bin/figures/elo_latency.py"
+    }
+  ]
+}
